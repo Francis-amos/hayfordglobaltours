@@ -362,7 +362,7 @@ nav ul li a:hover{
 /* CALL TO ACTION */
 
 .cta{
-    margin:100px auto;
+    margin:80px auto;
     background-image:linear-gradient(rgba(5, 5, 5, 0.6),rgba(10, 10, 10, 0.6)),url('../images/image-1.jpg');
     background-size:cover;
     background-position:center right;
@@ -373,15 +373,15 @@ nav ul li a:hover{
 
 
 .cta-info{
-    padding-top:100px;
+    width:100%;
+    padding-top:80px;
 }
 
 
 
 .cta h2{
-    margin-bottom:20px;
+    margin-bottom:50px;
     color:#fff;
-    padding:0;
 }
 
 
@@ -454,11 +454,36 @@ nav ul li a:hover{
     outline:none;
 }
 
-
-
-
-
 /*-----------END OF CONTACT PAGE---------*/
+
+
+
+
+
+
+.footer{
+    background:#00cec9;
+    padding:50px;
+    text-align:center;
+    font-size:17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -484,6 +509,15 @@ nav ul li a:hover{
         font-size:30px;
         color:#000;
         text-decoration:none;
+    }
+
+    .cta-info h2{
+        font-size:15px;
+        margin-bottom:30px;
+    }
+
+    .about-col-1 img{
+        margin-bottom:40px;
     }
   
     
